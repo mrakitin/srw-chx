@@ -1,0 +1,4 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+NSLS-II_CHX_beamline/res_*.dat

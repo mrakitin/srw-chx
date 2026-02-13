@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Max Rakitin <mrakitin@bnl.gov>"]
+channels = ["conda-forge"]
+name = "srw-chx"
+platforms = ["osx-64"]
+version = "0.1.0"
+
+[tasks]
+run-sim = "python NSLS-II-CHX-beamline-Intensity-Sample-48.7-m.py"
+plot-data = "python plot-data.py"
+
+[dependencies]
+ipython = ">=9.10.0,<10"
+pyqt = "5.*"
+python = "3.12.*"
+srwpy = ">=4.1.1,<5"
